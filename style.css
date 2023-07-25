@@ -140,3 +140,110 @@ flex-shrink: 0;
 /* Shadow 2xl */
 /* box-shadow: 0px 24px 48px -12px rgba(17, 24, 39, 0.25); */
 }
+.companies{
+ display: flex;
+width: 1440px;
+padding: 16px 112px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+}
+.company_logos{
+    display: flex;
+padding: 16px 0px;
+justify-content: center;
+align-items: center;
+gap: 64px;
+align-self: stretch;
+flex-wrap: wrap;
+}
+.companies img{
+    width: 90px;
+height: 28px;
+}
+.section1{
+    display: flex;
+padding: 96px 100px;
+flex-direction: column;
+align-items: center;
+gap: 64px;
+background: var(--white, #FFF);
+}
+.section1_texts{
+    display: flex;
+width: 800px;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+}
+.section1_title{
+    align-self: stretch;
+color: var(--neutral-900, #111827);
+text-align: center;
+font-feature-settings: 'liga' off;
+/* Display lg / Bold */
+font-family: sans-serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 125% */
+letter-spacing: -1.2px;
+}
+.section1_text{
+    align-self: stretch;
+color: var(--neutral-900, #111827);
+text-align: center;
+font-feature-settings: 'liga' off;
+/* Body lg / Regular */
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 155.556% */
+}
+.feature_container{
+    max-width: 100%;
+    display: flex;
+flex-wrap:wrap;
+gap: 64px;
+}
+.feature_item{
+    box-sizing: border-box;
+    margin-left: 30px;
+    display: flex;
+    padding: 0px 15px;
+width: 360px;
+height: 152px;
+border: 1px solid;
+flex-direction: column;
+align-items: center;
+}
+.feature_item img{
+    width: 32px;
+height: 32px;
+}
+.feature_item_title{
+    margin-top: 24px;
+    align-self: stretch;
+color: var(--neutral-900, #111827);
+text-align: center;
+font-feature-settings: 'liga' off;
+/* Display sm / Bold */
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 133.333% */
+}
+.feature_item_text{
+    align-self: stretch;
+color: var(--neutral-700, #374151);
+text-align: center;
+font-feature-settings: 'liga' off;
+/* Body md / Regular */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
